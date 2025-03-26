@@ -135,19 +135,19 @@ printf("Pib per capita : %.2f reais\n", pibpercapia);
 
 // comparação das cartas 
 
-printf("População: Carta 1 venceu (%d)\n", (poder > power));
+printf(" População: Carta 1 venceu (%d)\n", (populacao > popul ));
 
-printf("Área: Carta 1 venceu (%d)\n ", (poder > power));
+printf(" Área: Carta 1 venceu (%d)\n ", (area > are ));
 
-printf("PIB: Carta 1 venceu (%d)\n ", (poder > power));
+printf(" PIB: Carta 1 venceu (%d)\n ", (pib > pb));
 
-printf("Turísticos: Carta 1 venceu (%d)\n ", (poder > power));
+printf(" Turísticos: Carta 1 venceu (%d)\n ", (turisticos > turistico));
 
-printf("Populacional: Carta 2 venceu (%d)\n ", (power > poder));
+printf(" Densidade populacional: Carta 2 venceu (%d)\n ", ( popul > populacao));
 
-printf("Pib per Capita: Carta 2 venceu (%d)\n ", (power > poder));
+printf(" Pib per Capita: Carta 2 venceu (%d)\n ", (pb > pib));
 
-printf("Poder: Carta 2 venceu (%d)\n ", (power > poder));
+printf(" Poder: Carta 2 venceu (%d)\n ", (power > poder));
 
 
 }
