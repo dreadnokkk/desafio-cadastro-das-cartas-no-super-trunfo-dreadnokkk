@@ -17,29 +17,29 @@ float poder;
 //infomações fornecidas
 
 printf("Digite o estado a seguir: ");
-scanf("%c", &estado);
+scanf(" %c", &estado);
 
 printf("Digite o código da sua primeira carta:  ");
-scanf("%s", &codigo);
+scanf(" %s", &codigo);
 
 printf("Digite o nome da sua primeira carta:  ");
-scanf("%s", nomedacidade);
+scanf(" %s", nomedacidade);
 
 
 printf("Digite a população da sua primeira carta seguir:  ");
-scanf("%d", &populacao);
+scanf(" %d", &populacao);
 
 
 printf("Digite a área da sua primeira carta a seguir:  ");
-scanf("%f", &area);
+scanf(" %f", &area);
 
 
 printf("Digite o PIB da sua primeira carta a seguir:  ");
-scanf("%f", &pib);
+scanf(" %f", &pib);
 
 
 printf("Digite os pontos turíticos da sua primeira carta a seguir:  ");
-scanf("%d", &turisticos);
+scanf(" %d", &turisticos);
 
 
 //calculo da densidade populacional 
@@ -52,7 +52,7 @@ pibpercapita = (float) ( pib / populacao ) * 1000000000;
 
 //calculo do poder
 
-poder = (populacao + area + pib + turisticos + pibpercapita + 1) / densidadepoulacional;
+poder = (populacao + area + pib + turisticos + pibpercapita + 1 /densidadepoulacional);
 
 printf("***Dados da Primeira Carta***\n");
 printf("Estado: %c\n", estado);
@@ -82,7 +82,7 @@ float power;
 //infomações fornecidas
 
 printf("Digite o estado a seguir:  ");
-scanf("%c", &estade);
+scanf(" %c", &estade);
 
 
 printf("Digite o código da sua segunda carta:  ");
@@ -90,23 +90,23 @@ scanf("%s", &codig);
 
 
 printf("Digite o nome da sua segunda carta:  ");
-scanf("%s", nomedacid);
+scanf(" %s", nomedacid);
 
 
 printf("Digite a população da sua segunda carta seguir:  ");
-scanf("%d", &popul);
+scanf(" %d", &popul);
 
 
 printf("Digite a área da sua segunda carta a seguir:  ");
-scanf("%f", &are);
+scanf(" %f", &are);
 
 
 printf("Digite o PIB da sua segunda carta a seguir:  ");
-scanf("%f", &pb);
+scanf(" %f", &pb);
 
 
 printf("Digite os pontos turíticos da sua segunda carta a seguir:  ");
-scanf("%d", &turistico);
+scanf(" %d", &turistico);
 
 
 //calculo da densidade populacional 
@@ -119,7 +119,7 @@ pibpercapia = (float) ( pb / popul ) * 1000000000;
 
 //calculo do poder
 
-power = (popul + are + pb + turistico + pibpercapia + 1) / densidadepoulaciona;
+power = (popul + are + pb + turistico + pibpercapia + 1/densidadepoulaciona);
 
 printf("***Dados da Segunda Carta***\n");
 printf("Estado: %c\n", estade);
@@ -143,11 +143,11 @@ printf("PIB: Carta 1 venceu (%d)\n ", (poder > power));
 
 printf("Turísticos: Carta 1 venceu (%d)\n ", (poder > power));
 
-printf("Populacional: Carta 2 venceu (%d)\n ", (poder < power));
+printf("Populacional: Carta 2 venceu (%d)\n ", (power > poder));
 
-printf("Pib per Capita: Carta 2 venceu (%d)\n ", (poder < power));
+printf("Pib per Capita: Carta 2 venceu (%d)\n ", (power > poder));
 
-printf("Poder: Carta 2 venceu (%d)\n ", (poder < power));
+printf("Poder: Carta 2 venceu (%d)\n ", (power > poder));
 
 
 }
