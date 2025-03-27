@@ -141,7 +141,7 @@ printf(" Área: Carta 1 venceu (%d)\n ", (area > are ));
 
 printf(" PIB: Carta 1 venceu (%d)\n ", (pib > pb));
 
-printf(" Turísticos: Carta 1 venceu (%d)\n ", (turisticos > turistico));
+printf(" Turísticos: Carta 2 venceu (%d)\n ", (turistico > turisticos));
 
 printf(" Densidade populacional: Carta 2 venceu (%d)\n ", ( popul > populacao));
 
